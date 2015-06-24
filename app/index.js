@@ -12,7 +12,7 @@ var bodyParser = require('body-parser');
 var multer = require('multer');
 var errorHandler = require('errorhandler');
 
-var config = require('./config/config');
+var config = require('./../config/config');
 var routes = require('./routes');
 var app = module.exports = express();
 var server = module.exports = http.createServer(app);

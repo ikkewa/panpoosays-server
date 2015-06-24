@@ -1,5 +1,5 @@
 var Twit = require('twit');
-var config = require('../config/config');
+var config = require('../../config/config');
 
 var T = new Twit({
   consumer_key: config.twit.consumer_key,
