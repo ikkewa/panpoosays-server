@@ -39,3 +39,6 @@ Icon?
 
 # build files
 /build/*
+
+# config files
+/app/config/config.js
