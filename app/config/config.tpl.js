@@ -1,5 +1,6 @@
 
 module.exports = {
+  port: 8080,
   twit: {
     consumer_key: '<enter here>',
     consumer_secret: '<enter here>',
